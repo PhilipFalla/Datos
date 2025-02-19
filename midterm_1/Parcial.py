@@ -1,6 +1,6 @@
 from Stack import Stack
-from time import time
-from memory_profiler import profile
+#from time import time
+#from memory_profiler import profile
 
 class Parcial:
     
@@ -9,8 +9,10 @@ class Parcial:
 
     def poblar(self, m):
         
-        s = Stack(self.n)  # Stack de tamaño n
-        for _ in range(self.n):
+        size = self.n*m
+
+        s = Stack(size)  # Stack de tamaño n
+        for _ in range(size):
             s.push("A")
         return s
 

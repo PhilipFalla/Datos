@@ -1,4 +1,6 @@
 
+from memory_profiler import profile
+
 class Stack:
     def __init__(self, size: int): #Defining attributes (constructor).
         self.max = size #defining a max/size so we know when the stack is full.
@@ -16,6 +18,7 @@ class Stack:
         self.top += 1
         self.elements[self.top] = val
 
+    @profile
     def pop(self) -> any: #Method for using and removing the top element of the stack.
         if self.top == -1: #Case for empty stack.
             print('Stack underflow')
@@ -26,15 +29,15 @@ class Stack:
         self.top -= 1
         return val
     
+    def search(self, key) -> bool:
+        for i in range(self.top + 1):  # Recorremos desde 0 hasta el top y no hasta el final
+            if self.elements[i] == key:
+                return True
+        return False
+    
     def peek(self) -> any: #Method for using without removing the top element of the stack.
         if self.top == -1: #Case for an empty stack.
             print('Stack underflow')
             return None
 
         return self.elements[self.top]
-    
-    def search(self, key) -> bool:
-        for i in range(self.top + 1):  # Recorremos desde 0 hasta el top y no hasta el final
-            if self.elements[i] == key:
-                return True
-        return False
