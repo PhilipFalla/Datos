@@ -32,3 +32,9 @@ class Stack:
             return None
 
         return self.elements[self.top]
+    
+    def search(self, key) -> bool:
+        for i in range(self.top + 1):  # Recorremos desde 0 hasta el top y no hasta el final
+            if self.elements[i] == key:
+                return True
+        return False

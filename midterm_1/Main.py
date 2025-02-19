@@ -1,7 +1,8 @@
 from Parcial import Parcial
 
+n = 70000000
 
-parcial = Parcial(70000000)
+parcial = Parcial(n)
 s1 = parcial.poblar(1)  # 70,000,000 elementos
 s2 = parcial.poblar(2)  # 140,000,000 elementos
 s3 = parcial.poblar(3)  # 210,000,000 elementos
