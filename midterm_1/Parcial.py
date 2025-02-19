@@ -1,0 +1,22 @@
+from Stack import Stack
+from time import time
+from memory_profiler import profile
+
+class Parcial:
+    
+    def __init__(self, size):
+        self.n = size
+
+    def poblar(self, m):
+        
+        s = Stack(self.n)  # Stack de tamaño n
+        for _ in range(self.n):
+            s.push("A")
+        return s
+
+        """start_time = time()
+        s1 = Stack(n)  # Stack de tamaño n
+        for _ in range(n):
+            s1.push("A")
+        end_time = time()
+        print(f"Execution Time: {end_time - start_time:.6f} seconds")"""
