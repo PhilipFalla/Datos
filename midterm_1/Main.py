@@ -31,7 +31,8 @@ plt.gca().yaxis.set_major_formatter(ticker.FuncFormatter(lambda x, _: f'{x / 1e6
 plt.savefig("search_delete_plot.png", dpi=300)
 plt.show()
 
-"""parcial = Parcial(n)
+
+parcial = Parcial(n)
 start_time = time()
 s1 = parcial.poblar(1)  # 14,000,000 elementos
 s2 = parcial.poblar(2)  # 28,000,000 elementos
@@ -64,4 +65,4 @@ print(f"Execution Time: {end_time - start_time:.6f} seconds")
 start_time = time()
 print(s5.pop())
 end_time = time()
-print(f"Execution Time: {end_time - start_time:.6f} seconds")"""
+print(f"Execution Time: {end_time - start_time:.6f} seconds")
