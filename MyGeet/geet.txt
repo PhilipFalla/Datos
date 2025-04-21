@@ -1,4 +1,2 @@
-NO ME DEJA AGREGAR GEET AL REPO NO APARECEN LOS ARCHIVOS DENTRO DEL FOLDER DE GEET...
-
 Aquí está el link al repo, ya compartido, de geet:
 https://github.com/PhilipFalla/geet
