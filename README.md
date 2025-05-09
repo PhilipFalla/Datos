@@ -11,26 +11,26 @@ This repository contains all the work completed for the Data Structures course. 
 - **Stacks**
 - **Queues**
 - **Linked Lists**
-  - Includes a reversal algorithm (`reverse-ll`)
+  - Includes a reversal method
 - **Binary Trees**
 - **Binary Search Trees (BST)**
   - Includes a custom delete-node method and real use case in a Jupyter Notebook
 - **AVL Trees**
-  - Comparison to BSTs based on performance and balance
 
 ### 📊 Time Complexity Experiments
 - **Midterm I**: Compared complexity of search vs delete (`pop`) operations across structures.
-- **Midterm II**: Analyzed AVL Trees vs Binary Search Trees in terms of balancing and time complexity.
-- **In-Class Exercise**: Tested time complexity with simple for-loop implementations:
+- **Midterm II**: Analyzed AVL Trees vs Binary Search Trees in terms of time complexity.
+- **Complejidad**: Tested time complexity with simple for-loop implementations:
   - Linear search (`O(n)`)
   - Product pair search (`O(n²)`)
 
 ### 💻 Projects & Practical Work
 - **Geet (`MyGeet/`)**: A simplified Git clone with basic commands:
-  - `init`, `add`, `commit`
+  - `init`, `add`, `commit`, etc
 - **BST Use Case (`bst&tarea/`)**: Notebook demonstrating the delete operation in different scenarios.
 - **CLI Homework (`Tarea_CLI/`)**: Used the `click` Python package to create a basic command-line interface with test commands.
-- **Directory Tree Generator**: Simulated directory scanning where file paths are nodes in a custom tree structure.
+- **Directory Tree Generator (`Directory Tree/`)**: Simulated directory scanning where file paths are nodes in a custom tree structure.
+- **Linked List Reversal Tests (`reverse-ll/`)**: Created the method for reversing a linked list and it's tests.
 
 ---
 
@@ -40,7 +40,7 @@ This repository contains all the work completed for the Data Structures course. 
 ```bash
 Datos/
 ├── Complejidad/           → Time complexity tests (e.g., O(n), O(n²))
-├── Directory .../         → Homework: generate tree based on file paths
+├── Directory Tree/         → Homework: generate tree based on file paths
 
 Estructuras/
 ├── Arrays/                → Static array exercises
@@ -51,14 +51,13 @@ Estructuras/
 ├── Queues/                → Queue data structure
 ├── Stacks/                → Stack data structure
 
-Midterm I/                 → Search vs delete (pop) complexity analysis  
+Midterm I/                 → Search vs delete (pop) complexity analysis
 Midterm II/                → AVL vs BST complexity comparison  
 
 MyGeet/                    → Mini Git system ("geet" project)  
 reverse-ll/                → Linked list reversal implementation  
 
-Tarea_CLI/
-└── main.py                → CLI exercise using click
+Tarea_CLI/                 → CLI exercise using click
 
 .gitignore                 → Git ignored files  
 README.md                  → You're here :)
