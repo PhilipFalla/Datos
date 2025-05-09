@@ -34,29 +34,31 @@ This repository contains all the work completed for the Data Structures course. 
 
 ---
 
+
 ## 📂 Repository Structure
 
+```bash
 Datos/
-├── Complejidad/ → Time complexity tests (e.g., O(n), O(n²))
-├── Directory .../ → Homework: generate tree based on file paths
+├── Complejidad/           → Time complexity tests (e.g., O(n), O(n²))
+├── Directory .../         → Homework: generate tree based on file paths
 
 Estructuras/
-├── Arrays/ → Static array exercises
-├── AVL/ → AVL tree implementation
-├── binary_tree/ → Basic binary tree structure
-├── bst&tarea/ → Binary search tree + notebook with delete showcase
-├── Lists/ → Linked list implementations
-├── Queues/ → Queue data structure
-├── Stacks/ → Stack data structure
+├── Arrays/                → Static array exercises
+├── AVL/                   → AVL tree implementation
+├── binary_tree/           → Basic binary tree structure
+├── bst&tarea/             → Binary search tree + notebook with delete showcase
+├── Lists/                 → Linked list implementations
+├── Queues/                → Queue data structure
+├── Stacks/                → Stack data structure
 
-Midterm I/ → Search vs delete (pop) complexity analysis
-Midterm II/ → AVL vs BST complexity comparison
+Midterm I/                 → Search vs delete (pop) complexity analysis  
+Midterm II/                → AVL vs BST complexity comparison  
 
-MyGeet/ → Mini Git system ("geet" project)
-reverse-ll/ → Linked list reversal implementation
+MyGeet/                    → Mini Git system ("geet" project)  
+reverse-ll/                → Linked list reversal implementation  
 
 Tarea_CLI/
-└── main.py → CLI exercise using click
+└── main.py                → CLI exercise using click
 
-.gitignore → Git ignored files
-README.md → You're here 
+.gitignore                 → Git ignored files  
+README.md                  → You're here :)
